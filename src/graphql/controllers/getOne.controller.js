@@ -16,16 +16,16 @@ const getUser = async (id) =>{
 }
 
 const getUserPosts = async (userId) =>{
-    return fetch(`https://jsonplaceholder.typicode.com/users/${id}/posts`)
+    return fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
         .then(res=>res.json())
 }
 const getUserTodos = async (userId) =>{
-    return fetch(`https://jsonplaceholder.typicode.com/users/${id}/todos`)
+    return fetch(`https://jsonplaceholder.typicode.com/users/${userId}/todos`)
         .then(res=>res.json())
 }
 
 const getUserAlbums = async (userId) =>{
-    return fetch(`https://jsonplaceholder.typicode.com/users/${id}/albums`)
+    return fetch(`https://jsonplaceholder.typicode.com/users/${userId}/albums`)
         .then(res=>res.json())
 }
 
