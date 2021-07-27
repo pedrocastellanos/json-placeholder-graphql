@@ -1,32 +1,32 @@
 const fetch = require('node-fetch');
 
 const getPosts = async () =>{
-    const res = await fetch('http://127.0.0.1/respuestas-graphql/posts.json')
+    const res = await fetch('https://jsonplaceholder.typicode.com/posts')
     return await res.json() 
 }
 
 const getUsers = async () =>{
-    const res = await fetch('http://127.0.0.1/respuestas-graphql/users.json')
+    const res = await fetch('https://jsonplaceholder.typicode.com/users')
     return await res.json()
 }
 
 const getPhotos = async (userId) =>{
-    const res = await fetch('http://127.0.0.1/respuestas-graphql/photos.json')
+    const res = await fetch('https://jsonplaceholder.typicode.com/photos')
     return await res.json()
 }
 
 const getAlbums = async () =>{
-    const res = await fetch('http://127.0.0.1/respuestas-graphql/albums.json')
+    const res = await fetch('https://jsonplaceholder.typicode.com/albums')
     return await res.json()
 }
 
 const getComments = async () =>{
-    const res = await fetch('http://127.0.0.1/respuestas-graphql/comments.json')
+    const res = await fetch('https://jsonplaceholder.typicode.com/comments')
     return await res.json()
 }
 
 const getTodos = async () =>{
-    const res = await fetch('http://127.0.0.1/respuestas-graphql/todos.json')
+    const res = await fetch('https://jsonplaceholder.typicode.com/todos')
     return await res.json()
 }
 
