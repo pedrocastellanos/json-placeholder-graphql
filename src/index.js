@@ -8,7 +8,7 @@ const resolvers = require('./graphql/resolvers/index')
 const port = process.env.PORT || 4000
 
 async function startApolloServer() {
-  const server = new ApolloServer({ typeDefs, resolvers });
+  const server = new ApolloServer({ typeDefs, resolvers, introspection: true, playground: true});
   await server.start();
 
   const app = express();
