@@ -1,0 +1,19 @@
+{
+  "name": "json-placeholder-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.25.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  }
+}

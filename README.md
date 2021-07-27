@@ -1,0 +1,1 @@
+A REST API conversion of JSONPlaceholder to GraphQL
